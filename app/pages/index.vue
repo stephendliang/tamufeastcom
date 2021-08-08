@@ -12,47 +12,6 @@
       </div>
     </div>
     
-    
-    <header class="w100 rdx  " style="min-height: 700px;height: 1000px;
-    background-size: cover;
-    background:#fff;
-    z-index: -2;
-    top: 0px;
-    padding-bottom: 30em
-    ">
-      <div class=" narrow x c rel"  style="top: 0;z-index: 3;">
-        <div class="v z rel" style="padding: 0em 0 4em; ">
-          <div class="w100 rel">
-
-           
-
-
-
-
-
-            <div class=" w100-lg   v" style="width:100%;max-width: 720px;margin-top: 250px;">
-              <h1 class="K  w6 mt24 f32 " id="main-title">Are your pictures good enough?</h1>
-              <p class="mt24 mb2 w5 f21-xl f17-lg f15">Get your photos rated by dozens of other photographers and influencers, all for free (credits also available).</p>
-              <ul class="L y p2 mt4 mb0 mla flg plxl mt48">
-                <li>
-                  <a class="big rel btn alt w f15 w6" href="https://app.frntl.io/auth/signup">
-                    <span class="cl-">Start now</span>
-                    <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path stroke="#fff" stroke-width="2" fill="none" d="M1 1l4 4-4 4"></path></svg>
-                  </a>
-                </li>
-                <li class="ml24">
-                  <a class="big rel btn blue f15 w6" href="https://app.frntl.io/auth/signup">
-                    <span class="cl-">View blog</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-
 
 
 
