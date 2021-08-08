@@ -74,57 +74,6 @@
             <p class="f21 mt24 w4 tc">See how other contributors feel about your content in a qualitative and quantatative light.</p>
           </div>
 
-              <div id="" class=" rdx    rate-tab" style="right: -710px;top: 180px;position: static;width: 100%;">
-                <div class="y z w">
-                  <div class=" bg-white w100m360x" style="background-image: url('assets/teton.jpg');background-position: center;background-size: cover;min-height: 500px">
-                  </div>
-                  <div class=" bsbx  pt30 pl40 pr40 pb30 w360x">
-
-                      <div class="">
-                        <div class="y z mt10 mb20">
-                          <span class="f15 w6">Photography</span>
-                          <span class="f15 w5">50 Votes</span>
-                        </div>
-                        <span class="meter mt48"><span class="ind" style="background: #5983fc;width: 81.69%"></span></span>
-                        <div class="y z mt5 mb20">
-                          <h5 class="w6 f13 lh20 m0">Composition</h5>
-                          <span class="f11 lh20 w5">8.169</span>
-                        </div>
-                        <span class="meter mt32"><span class="ind pur" style="background: #3e60c1;width: 73.84%"></span></span>
-                        <div class="y z mt5 mb20">
-                          <h5 class="w6 f13 lh20 m0">Subject</h5>
-                          <span class="f11 lh20 w5">7.384</span>
-                        </div>
-                        <span class="meter mt32"><span class="ind" style="background: #2e4583;width: 87.52%"></span></span>
-                        <div class="y z mt5">
-                          <h5 class="w6 f13 lh20 m0">Aesthetic</h5>
-                          <span class="f11 lh20 w5">8.752</span>
-                        </div>
-                        <div class="y z mt20">
-                        </div>
-                      </div>
-
-                      <div class="quick-notes clearfix in-panel mt32 ">
-                        <h4 role="presentation" class=" w6 f11">4 comments</h4>
-                        <ul class="L">
-                          <li class="bt f13 pt7 pb7">
-                            <span>The sky is too dark to look realistic</span>
-                          </li>
-                          <li class="bt f13 pt7 pb7">
-                            <span>Glow on mountains looks too fake</span>
-                          </li>
-                          <li class="bt f13 pt7 pb7">
-                            <span>Just a bit wild looking</span>
-                          </li>
-                          <li class="bt f13 pt7 pb7">
-                            <span>Strange sky</span>
-                          </li>
-                        </ul>
-                      </div>
-                  </div>
-                </div>
-              </div>
-
 
           <ul class="L gg50 gp50 mt128 w100 mra ">
 
