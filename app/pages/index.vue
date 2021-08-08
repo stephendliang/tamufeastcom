@@ -9,39 +9,10 @@
         </div>
       </div>
       <div class="flex flex-col w-full xl:w-2/5">
-        <img
-          alt="Hero"
-          class="rounded shadow-xl"
-          src="https://source.unsplash.com/random/720x400"
-        />
       </div>
     </div>
     
-    <nav class="tp" style="background: rgba(0,2,4, 0.0)">
-      <div class="x y z flg">
-        <div class="w100 y z rel" style="border-bottom: 1px solid rgba(0,2,4,0.01)">
-          <div class="y hW">
-            <a href="/index.html" class="nX" id="mss" style="line-height: 82px;font-size: 21px"><span class="cl-black w6" >images</span>pro</a>
-            <button class="hbbrs C mLa rel" type="button" @click="open"></button>
-          </div>
-          <ul class="y z w100">
-            <li>
-              <a href="/blog.html">FAQ</a>
-            </li>
-            <li class="ml32">
-              <a href="/blog.html">Blog</a>
-            </li>
-            <li class="ml32" style="margin-left: auto;">
-              <a href="/login.html">Sign in</a>
-            </li>
-            <li class="ml32">
-              <a href="/login.html" class="btn alt">Sign Up</a>
-            </li>
-          </ul>
-
-        </div>
-      </div>
-    </nav>
+    
     <header class="w100 rdx  " style="min-height: 700px;height: 1000px;
     background-size: cover;
     background:#fff;
@@ -877,22 +848,7 @@
         </div>
       </div>
     </div>
-
-    <footer class="rel" style="padding-bottom: 2em;background: #;">
-      <div class="x " style="max-width: ">
-        <div class="bt c y z v-mxl w100 pt32">
-          <ul class="L y pl mt10p">
-            <li><a class="w6" href="/blog">Blog</a></li>
-            <li><a class="pl15 w6" href="/careers">Discord</a></li>
-          </ul>
-          <ul class="L y mt10p">
-            <li><a class="w6" href="about.html">About</a></li>
-            <li><a class="pl15 w6" href="/about">FAQ</a></li>
-            <li><a class="pl15 w6" href="/about">Terms</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+    
   </section>
 </template>
 
