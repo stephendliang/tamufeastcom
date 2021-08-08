@@ -60,44 +60,6 @@
 
 
 
-    <div class="bg- pdst pt128 pb96 " style="background: #)">
-      <div class="x narrow c y z">
-        <div class="w100 mt24 bsbx ">
-            <ul class="L y pl y z w">
-              <li style="background-image: url('assets/px2.jpg');background-size: cover;height: 840px;background-position: bottom;" class="bsbx pt32 pl36 w50m10 pr36 pb20">
-                  <a class="cl-swap big f19 rel  w">
-                  <h2 class="cl-white tc w6">Photographers</h2>
-                  <p class="cl-white tc lh24 f15">Separate your wheat pictures from the chaff pictures (figuratively of course) and see what to keep front-and-center for your portfolio in the categories of <b>Composition</b>, <b>Subject</b>, and <b>Aesthetic</b>.</p>
-                </a>
-              </li>
-              <li class="w50m10" style="display: block;">
-                <div style="background-image: url('assets/ed2.jpg');background-size: cover;height: 410px" class="bsbx pt32 pl36 w100 pr36 pb20">
-                  <a class="cl-swap big f19 rel  w">
-                    <h2 class="cl-white tc w6">Editors</h2>
-                    <p class="cl-white tc lh24 f15">Get more input and advice on any pictures that you might be considering, and see which edits are the most popular, by optimizing for <b>Artistry</b>, <b>Coloration</b>, and <b>Technicality</b>.</p>
-                  </a>
-                </div>
-                <div style="background-image: url('assets/if2.jpg');background-size: cover;height: 410px;background-position: top;" class="bsbx w100 pt32 pl36 pr36 pb20 mt20">
-                  <a class="cl-swap big f19 rel  w">
-                    <h2 class="cl-white tc w6">Influencers</h2>
-                    <p class="cl-white lh24 f15 tc">Find your most noticeable images before posting on Instagram, Twitter, or Facebook to get the most amount of likes and shares through rating the <b>Noticeability</b>, <b>Attractiveness</b>, and <b>Relatability</b>.</p>
-                  </a>
-                </div>
-              </li>
-            </ul>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
 
 
 
