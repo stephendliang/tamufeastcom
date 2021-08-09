@@ -2,7 +2,7 @@
   "title": "Home",
   "titleTemplate": "Shitposting Home",
   "welcomeText": "# Freshman Exemplifying Aggie Spirit Together\n\n\n\"Our mission is to develop freshmen into leaders who exemplify the Aggie Spirit and preserve the fundamental traditions and values of Texas A&M University through selfless service, community outreach, and University engagement. We envision creating a campus where all Aggies demonstrate the uncommon ability to inspire and lead the Aggie family to exceptional achievement.\"",
-  "logo": "TAMUFeast",
+  "logo": "FEAST",
   "icon": "/images/uploads/logo.png",
   "loadingColor": "#0b3765",
   "seoDescription": "A quickstart for Nuxt & Netlify CMS",
