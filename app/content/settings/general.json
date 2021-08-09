@@ -2,7 +2,7 @@
   "title": "Home",
   "titleTemplate": "Shitposting Home",
   "welcomeText": "# TAMU Feast, a cultish organization\n\nsophie is so pretty i wanna take her on a ride in the tesla mmhmmmmmm",
-  "logo": "/images/uploads/logo.svg",
+  "logo": "TAMUFeast",
   "icon": "/images/uploads/logo.png",
   "loadingColor": "#0b3765",
   "seoDescription": "A quickstart for Nuxt & Netlify CMS",
