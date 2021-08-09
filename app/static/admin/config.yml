@@ -23,6 +23,7 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: 'Title Template', name: titleTemplate, widget: string }
           - { label: 'Welcome Text', name: welcomeText, widget: markdown }
+          - { label: Header, name: header, widget: image }
           - { label: Logo, name: logo, widget: string }
           - { label: Icon, name: icon, widget: image }
           - { label: 'Loading Color', name: loadingColor, widget: string, default: '#000000' }
