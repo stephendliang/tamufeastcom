@@ -68,8 +68,18 @@ collections:
       - { label: 'Featured Image', name: featuredImage, widget: image, required: false }
       - { label: 'SEO Description', name: seoDescription, widget: text, required: false }
       - { label: 'SEO Meta Image', name: seoMetaImage, widget: image, required: false }
+  - name: 'photos'
+    label: 'Photo Collections'
+    folder: 'app/content/photocollection'
+    create: true
+    slug: '{{slug}}'
+    format: 'json'
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Content, name: content, widget: markdown }
+      - { label: 'Profile', name: profile, widget: image, required: false }
   - name: 'staffmember'
-    label: 'Staff Member'
+    label: 'Staff Members'
     folder: 'app/content/staff'
     create: true
     slug: '{{slug}}'
