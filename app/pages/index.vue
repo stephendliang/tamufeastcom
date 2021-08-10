@@ -1,8 +1,8 @@
 <template>
   <section class="home">
-    <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-center" v-bind:style="{ backgroundImage: 'url(' + header + ')' }">
+    <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-center" v-bind:style="{ backgroundImage: 'url(' + header + ')';backgroundSize:cover }">
       <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
-        <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
+        <div v-html="$md.render(welcomeText)" class="home__welcome markdown" style="color:#fff" />
 
         <div class="mb-12 xl:mb-0">
 
@@ -12,19 +12,6 @@
       </div>
     </div>
     
-
-
-
-
-
-
-
-
-
-
-
-
-
     <div class="w100 pdstd rel bg- g1 spotlight pt128 pb32">
       <div class="rel">
         <div class="bsbx w100 mt3 rel">
