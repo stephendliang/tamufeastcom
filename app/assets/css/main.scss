@@ -261,6 +261,12 @@ a {
     color: rgba(89,132,255,1);
     transition: 0.2s all ease-in; }
 }
+
+nav {
+  a {
+    color: #435465;
+  }
+}
 video::-webkit-scrollbar {
   display: none;
 }
