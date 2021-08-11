@@ -76,7 +76,7 @@ collections:
     format: 'json'
     fields:
       - { label: Name, name: name, widget: string }
-      - label: "Gallery"
+      - label: "Image"
         name: "galleryImages"
         widget: "list"
         summary: '{{fields.image}}'
