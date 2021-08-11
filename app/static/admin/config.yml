@@ -76,12 +76,17 @@ collections:
     format: 'json'
     fields:
       - { label: Name, name: name, widget: string }
-      - { label: 'Images', name: img, widget: image, allow_multiple: true }
+      - label: "Gallery"
+        name: "galleryImages"
+        widget: "list"
+        summary: '{{fields.image}}'
+        field: {label: Image, name: image, widget: image}
+  
   - name: 'staffmember'
     label: 'Staff Members'
     folder: 'app/content/staff'
     create: true
-    slug: '{{name}}'
+    slug: '{{fields.name}}'
     format: 'json'
     fields:
       - { label: Name, name: name, widget: string }
