@@ -1,55 +1,16 @@
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gomah/bluise)
+# What this is
 
-# Bluise - A Nuxt.js & Netlify CMS boilerplate.
+- A Vue.js web app that also relies on Hugo to generate each static file.
+- A place for users to
 
-I wanted to explore Netlify CMS & Tailwind CSS, ended up creating this boilerplate.
+## What it isn't
 
-So far we've got:
-
-- Blog w/ posts, including pagination.
-- Configurable manifest & global settings.
-- CSS Markdown (Thanks to [https://github.com/iandinwoodie/github-markdown-tailwindcss/blob/master/markdown.css]).
-- Dynamic pages.
-- PWA ready.
-- SEO ready for posts & pages.
-- Signup form (using Netlify Forms).
-- Tools (Commitlint, Husky).
-- Typescript.
-
-Few things I'd like to add in the future:
-
-- Contact form under \_slug.
-- Dynamic sections/widgets.
-- Responsive CSS markdown.
-- Tests
-
-## Quickstart
+Text content here lives in JSON. You're better off editing it in the admin backend
 
 ### Prerequisites
 
 - [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-tab)
 - [Node.js](https://nodejs.org/en/)
-
-```bash
-# ensure you have the prerequisites
-# install
-brew install node && brew install yarn
-
-# OR update
-brew update && brew upgrade && brew install yarn
-
-# install dependencies
-yarn install
-
-# serve with hot reload at localhost:3000
-yarn dev
-
-# build for production with minification
-yarn generate
-
-# run all tests
-yarn test
-```
 
 ### Using Netlify CMS
 
