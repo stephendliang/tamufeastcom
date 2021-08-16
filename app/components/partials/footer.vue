@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer" style="padding-top: 120px">
+  <footer class="footer" style="padding: 120px 0 30px">
     <div class="x y z">
       <div class="y">
         <a href="https://twitter.com/tamufeast">
