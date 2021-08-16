@@ -2,8 +2,8 @@
   <section class="home">
     <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-center bg-fit" v-bind:style="{ backgroundImage: 'url(' + header + ')' }">
       <div class="x">
-        <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
-          <h2 class=" " style="color:#fff;font-size:40px;text-align:center">{{ taglineText }} </h2>
+        <div class="">
+          <h2 class="" style="color:#fff;font-size:45px;font-weight:600;text-align:center;text-transform:uppercase">{{ taglineText }} </h2>
           <p class=" " style="color:#fff">{{ subtagText }} </p>
         </div>
       </div>
