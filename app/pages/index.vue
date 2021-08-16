@@ -4,7 +4,7 @@
       <div class="x">
         <div class="">
           <h2 class="" style="color:#fff;font-size:45px;font-weight:600;text-align:center;text-transform:uppercase">{{ taglineText }} </h2>
-          <p class=" " style="color:#fff">{{ subtagText }} </p>
+          <p class=" " style="color:#fff;font-size:22px;font-weight:600;text-align:center;text-transform:uppercase;text-decoration:italic">{{ subtagText }} </p>
         </div>
       </div>
     </div>
