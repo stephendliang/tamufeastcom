@@ -1,5 +1,5 @@
 <template>
-  <header class="flex items-center py-4 md:py-8">
+  <header class="flex items-center" style="background:transparent">
     <div class="x y">
       <div class="header__logo">
         <nuxt-link to="/">
