@@ -209,6 +209,128 @@ textarea {
 .bb {border-bottom: 1px solid rgba(200,244,255,0.1)}
 .bb-dark {border-bottom: 1px solid rgba(0,2,4,0.04)}
 
+.btn {
+  padding: 10px 16px 9px;
+  font-weight: 600;
+  transition: 0.2s ease-in-out all;
+  box-shadow: 1px 2px 5px 0 rgba(255,255,255,0.01);
+  border-radius: 4px;
+  position: relative;
+  background-color: rgba(255,255,255,0.1);
+
+  svg { margin-left: 7px }
+  path { stroke: #111; fill: none }
+  &.w path { stroke: white }
+
+  &.abs {position: absolute}
+  &.nar {padding-right: 19px;}
+  &.bl {display: block}
+
+  &.mb0 {margin-bottom: 0}
+  
+  &:hover svg { transform: translateX(4px); transition: 0.2s ease all; }
+  
+  &.sm {font-size: 13px}
+  
+  &.cl-white {color: white}
+
+  &.bg-white {
+    color: white;
+    background-color: rgba(255,255,255,0.1);
+    border: none;
+    path {stroke: #fff; } }
+  &.nobg {
+    background: none;
+    box-shadow: none; }
+  &.black {
+    background: none;
+    box-shadow: none;
+    path {stroke: #111; } }
+  &.nopl {
+    padding-left: 0 }
+  &.alt {
+    color: #5984FF;
+    background: rgba(var(--color-2rgb), 0.1);
+    box-shadow: none !important;
+    border: none;
+    path {stroke: #5984FF} }
+  &.red {
+    color: #ff003f;
+    background: rgba(#ff003f, 0.06);
+    box-shadow: none !important;
+    border: none;
+    path {stroke: #5984FF} }
+  &.blue {
+    color: white;
+    border: none;
+    background: #5984FF;
+  }
+  &.buy {
+    border-radius: 4px;
+    font-weight: 600;
+  }
+}
+
+.credit-buy a {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 27px;
+  &:hover {
+    font-size: 13px;
+    transition: 0.2s ease all;
+  }
+}
+
+.bti {
+  svg {
+    width: 16px;
+    margin: 2px 0;
+  }
+}
+
+hr {
+  height: 1px;
+  background: #e1e2e4;
+  border: none;
+}
+
+.submit-button {
+  margin: 4px 0;padding: 6px 19px 5px; font-weight: 600; letter-spacing: 0
+}
+
+.rnd2 {background: transparent;
+
+    padding: 7px 12px;
+    margin-right: 6px;
+    margin-bottom: 0;
+    svg {
+      margin-right: 7px;
+    }
+
+}
+.rnd {background: #f0f3f5;
+
+    padding: 1px 3px 0;
+    margin: 5px 6px 0 0;
+    }
+
+.UnstyledLink {
+  background:transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 767px) {
 .bb-lg {border-bottom: 1px solid rgba(200,244,255,0.09)}
 }
