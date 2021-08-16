@@ -1,14 +1,15 @@
 <template>
   <section class="home">
     <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-center bg-fit" v-bind:style="{ backgroundImage: 'url(' + header + ')' }">
-      <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
-        <div v-html="$md.render(welcomeText)" class="home__welcome markdown" style="color:#fff" />
+      <div class="container">
+        <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
+          <div v-html="$md.render(welcomeText)" class="home__welcome markdown" style="color:#fff" />
+          <div class="mb-12 xl:mb-0">
 
-        <div class="mb-12 xl:mb-0">
-
+          </div>
         </div>
-      </div>
-      <div class="flex flex-col w-full xl:w-2/5">
+        <div class="flex flex-col w-full xl:w-2/5">
+        </div>
       </div>
     </div>
     
@@ -24,18 +25,6 @@
           <ul class="L gg50 gp50 mt128 w100 mra ">
 
             <li class="gp50 y">
-              <!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In  -->
-<svg class="mt12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px"
-   height="36px" viewBox="0 0 36 36" style="overflow:visible;enable-background:new 0 0 36 36;" xml:space="preserve">
-<g>
-  <path class="st0" d="M27.3,36H8.7C3.9,36,0,32.1,0,27.3V8.7C0,3.9,3.9,0,8.7,0h18.7C32.1,0,36,3.9,36,8.7v18.7
-    C36,32.1,32.1,36,27.3,36z"/>
-</g>
-<circle class="st1x" cx="18" cy="14.7" r="6.6"/>
-<circle class="st2x" cx="13.6" cy="21.3" r="6.6"/>
-<circle class="st3x" cx="22.4" cy="21.3" r="6.6"/>
-</svg>
-
               <div class="ml20">
                 <h4 class="f15 mt10 w6  bl-std mt1 f19 mb0">Highly accurate ratings</h4>
                 <p class="mt16">Machine learning algorithms will detect spammy ratings and discard them.</p>
