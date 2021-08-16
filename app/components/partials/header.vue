@@ -1,29 +1,31 @@
 <template>
   <header class="flex items-center py-4 md:py-8">
-    <div class="header__logo">
-      <nuxt-link to="/">
-        {{ logo }}
-      </nuxt-link>
+    <div class="container flex">
+      <div class="header__logo">
+        <nuxt-link to="/">
+          {{ logo }}
+        </nuxt-link>
+      </div>
+
+      <nav class="nav ml-auto">
+        <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0">
+        <!--
+          <li>
+            <nuxt-link to="/blog" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+              Blog
+            </nuxt-link>
+          </li>-->
+
+          <li
+            v-for="(page, index) in pages"
+            :key="index"
+            class="block font-medium py-1"
+          >
+            <nuxt-link :to="`/${page.slug}`">{{ page.title }}</nuxt-link>
+          </li>
+        </ul>
+      </nav>
     </div>
-
-    <nav class="nav ml-auto">
-      <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0">
-      <!--
-        <li>
-          <nuxt-link to="/blog" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
-            Blog
-          </nuxt-link>
-        </li>-->
-
-        <li
-          v-for="(page, index) in pages"
-          :key="index"
-          class="block font-medium py-1"
-        >
-          <nuxt-link :to="`/${page.slug}`">{{ page.title }}</nuxt-link>
-        </li>
-      </ul>
-    </nav>
   </header>
 </template>
 
