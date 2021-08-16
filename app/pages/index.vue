@@ -3,8 +3,8 @@
     <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-center bg-fit" v-bind:style="{ backgroundImage: 'url(' + header + ')' }">
       <div class="x">
         <div class="">
-          <h2 class="" style="color:#fff;font-size:45px;font-weight:600;text-align:center;text-transform:uppercase">{{ taglineText }} </h2>
-          <em class=" " style="color:#fff;font-size:22px;font-weight:600;text-align:center;text-transform:uppercase">{{ subtagText }} </em>
+          <h2 class="v" style="color:#fff;font-size:45px;font-weight:600;text-align:center;text-transform:uppercase">{{ taglineText }} </h2>
+          <em class="v" style="color:#fff;font-size:22px;font-weight:600;text-align:center;text-transform:uppercase">{{ subtagText }} </em>
         </div>
       </div>
     </div>
@@ -13,9 +13,7 @@
     <div style="padding-top:54px">
       <div class="x">
         <div class="flex flex-col w-full lg:items-start overflow-y-hidden">
-          <div v-html="$md.render(welcomeText)" class="home__welcome markdown tc mx-auto" style="text-align:center !important;"/>
-        </div>
-        <div class="flex flex-col w-full xl:w-2/5">
+          <div v-html="$md.render(welcomeText)" class="home__welcome markdown tc mx-auto" style="text-align:center !important;max-width:900px"/>
         </div>
       </div>
     </div>
