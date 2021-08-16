@@ -1,5 +1,5 @@
 <template>
-  <header class="flex items-center" style="background:transparent;position:absolute">
+  <header class="flex items-center" style="background:transparent;position:absolute;width: 100%">
     <div class="x y">
       <div class="header__logo">
         <nuxt-link to="/">
@@ -20,6 +20,7 @@
             v-for="(page, index) in pages"
             :key="index"
             class="block font-medium py-1"
+            style="color:#fff"
           >
             <nuxt-link :to="`/${page.slug}`">{{ page.title }}</nuxt-link>
           </li>
