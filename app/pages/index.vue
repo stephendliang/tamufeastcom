@@ -87,6 +87,8 @@ import settings from '@/content/settings/general.json';
   },
 })
 export default class Home extends Vue {
+  subtagText = settings.subtagText;
+  taglineText = settings.taglineText;
   welcomeText = settings.welcomeText;
   header = settings.header;
 
