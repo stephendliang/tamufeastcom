@@ -30,7 +30,7 @@
 
 
 
-    <div class="bg- pdst pt128 pb96 " style="background: #;">
+    <div class="bg- pdst pt128 pb96 " style="padding: 120px 0 80px">
       <div class="x c y z">
         <div style="max-width: 567px">
           <h3 class="mt0 w6">Ready to get started?</h3>
