@@ -1,8 +1,8 @@
 <template>
-  <header class="flex items-center" style="background:transparent;position:absolute;width: 100%">
+  <header class="flex items-center" style="background:transparent;position:absolute;width:100%;padding:2em 0;">
     <div class="x y">
       <div class="header__logo">
-        <nuxt-link to="/" style="color: #fff;font-weight:600">
+        <nuxt-link to="/" style="color: #fff;font-weight:600;font-size:24px">
           {{ logo }}
         </nuxt-link>
       </div>
