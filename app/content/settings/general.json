@@ -7,5 +7,6 @@
   "title": "Home",
   "icon": "/images/uploads/logo.png",
   "seoMetaImage": "",
+  "taglineText": "Feast",
   "seoDescription": "A quickstart for Nuxt & Netlify CMS"
 }
