@@ -1,7 +1,7 @@
 <template>
   <section class="home">
     <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-center bg-fit" v-bind:style="{ backgroundImage: 'url(' + header + ')' }">
-      <div class="container">
+      <div class="x">
         <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
           <div v-html="$md.render(welcomeText)" class="home__welcome markdown" style="color:#fff" />
           <div class="mb-12 xl:mb-0">
