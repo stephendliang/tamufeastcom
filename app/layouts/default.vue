@@ -1,10 +1,7 @@
 <template>
   <main :class="[$route.name]" class="main">
-    <div class="mx-auto">
-      <site-header />
-      <nuxt class="nuxt" />
-    </div>
-
+    <site-header />
+    <nuxt class="nuxt" />
     <site-footer />
   </main>
 </template>
