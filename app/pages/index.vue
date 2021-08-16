@@ -38,13 +38,13 @@
         </div>
         <ul class="L y pl mt25">
           <li class="mr25p">
-            <a class="cl-swap big f19 rel btn alt bg-blue0 w" href="/signup.html">
+            <a class="cl-swap big f19 rel button alt bg-blue0 w" href="/signup.html">
               <span class="">Sign up</span>
               <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path stroke="#fff" stroke-width="2" fill="none" d="M1 1l4 4-4 4"></path></svg>
             </a>
           </li>
           <li class="ml24">
-            <a class="cl-swap big f19 rel btn blue bg-blue0 w" href="/faq.html">
+            <a class="cl-swap big f19 rel button blue bg-blue0 w" href="/faq.html">
               <span class="">View FAQ</span>
             </a>
           </li>
