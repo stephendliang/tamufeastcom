@@ -12,7 +12,7 @@
     
     <div style="padding-top:54px">
       <div class="x">
-        <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
+        <div class="flex flex-col w-full lg:items-start overflow-y-hidden">
           <div v-html="$md.render(welcomeText)" class="home__welcome markdown tc mx-auto" style="text-align:center !important;"/>
         </div>
         <div class="flex flex-col w-full xl:w-2/5">
