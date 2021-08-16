@@ -22,7 +22,7 @@ collections:
         fields:
           - { label: Title, name: title, widget: string }
           - { label: 'Title Template', name: titleTemplate, widget: string }
-          - { label: 'Tagline', name: taglineText, widget: markdown }
+          - { label: 'Tagline', name: taglineText, widget: string }
           - { label: 'Welcome Text', name: welcomeText, widget: markdown }
           - { label: Header, name: header, widget: image }
           - { label: Logo, name: logo, widget: string }
