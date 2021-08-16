@@ -31,26 +31,24 @@
 
 
     <div class="bg- pdst pt128 pb96 " style="background: #;">
-      <div class=" narrow c y z">
-        <div class="w100 mt24 bsbx y z v-mlg">
-            <div style="max-width: 567px">
-              <h3 class="mt0 w6">Ready to get started?</h3>
-              <p class="mt1 cl-swap w4">We're currently not done setting up the backend currently, but you can sign up to receive updates when it's done.</p>
-            </div>
-            <ul class="L y pl mt25">
-              <li class="mr25p">
-                <a class="cl-swap big f19 rel btn alt bg-blue0 w" href="/signup.html">
-                  <span class="">Sign up</span>
-                  <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path stroke="#fff" stroke-width="2" fill="none" d="M1 1l4 4-4 4"></path></svg>
-                </a>
-              </li>
-              <li class="ml24">
-                <a class="cl-swap big f19 rel btn blue bg-blue0 w" href="/faq.html">
-                  <span class="">View FAQ</span>
-                </a>
-              </li>
-            </ul>
+      <div class="x c y z">
+        <div style="max-width: 567px">
+          <h3 class="mt0 w6">Ready to get started?</h3>
+          <p class="mt1 cl-swap w4">We're currently not done setting up the backend currently, but you can sign up to receive updates when it's done.</p>
         </div>
+        <ul class="L y pl mt25">
+          <li class="mr25p">
+            <a class="cl-swap big f19 rel btn alt bg-blue0 w" href="/signup.html">
+              <span class="">Sign up</span>
+              <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path stroke="#fff" stroke-width="2" fill="none" d="M1 1l4 4-4 4"></path></svg>
+            </a>
+          </li>
+          <li class="ml24">
+            <a class="cl-swap big f19 rel btn blue bg-blue0 w" href="/faq.html">
+              <span class="">View FAQ</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     
