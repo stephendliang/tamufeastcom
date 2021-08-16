@@ -1,5 +1,5 @@
 <template>
-  <header class="flex items-center" style="background:transparent">
+  <header class="flex items-center" style="background:transparent;position:absolute">
     <div class="x y">
       <div class="header__logo">
         <nuxt-link to="/">
