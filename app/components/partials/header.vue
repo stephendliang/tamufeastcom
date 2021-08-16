@@ -20,9 +20,9 @@
             v-for="(page, index) in pages"
             :key="index"
             class="block font-medium py-1"
-            style="color:#fff;margin-left:20px"
+            style="margin-left:20px"
           >
-            <nuxt-link :to="`/${page.slug}`">{{ page.title }}</nuxt-link>
+            <nuxt-link style="color:#fff" :to="`/${page.slug}`">{{ page.title }}</nuxt-link>
           </li>
         </ul>
       </nav>
