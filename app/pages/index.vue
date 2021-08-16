@@ -5,8 +5,6 @@
         <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
           <div class="home__welcome " style="color:#fff" />{{ taglineText }} </div>
           <div class="home__welcome " style="color:#fff" />{{ subtagText }} </div>
-          <div class="mb-12 xl:mb-0">
-          </div>
         </div>
         <div class="flex flex-col w-full xl:w-2/5">
         </div>
