@@ -20,20 +20,6 @@
       </div>
     </div>
     
-    
-    <div class="w100 pdstd rel bg- g1 spotlight pt128 pb32">
-      <div class="rel">
-        <div class="bsbx w100 mt3 rel">
-          <div class="w100 w home-swap mt6 mat " style="max-width: 760px">
-            <h3 class="w6 big mb0 mt1 f45 tc">Review Critiques.</h3>
-            <p class="f21 mt24 w4 tc">See how other contributors feel about your content in a qualitative and quantatative light.</p>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
 
 
 
