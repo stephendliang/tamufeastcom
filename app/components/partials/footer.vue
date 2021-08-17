@@ -10,12 +10,21 @@
         </a>
       </div>
       <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0">
+        <li class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+          <nuxt-link to="/" style="color:#212121">Home</nuxt-link>
+        </li>
         <li
           v-for="(page, index) in pages"
           :key="index"
           class="block font-medium px-4 py-1 md:p-2 lg:px-4"
         >
           <nuxt-link :to="`/${page.slug}`" style="color:#212121">{{ page.title }}</nuxt-link>
+        </li>
+        <li class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+          <nuxt-link to="/staff" style="color:#212121">Staff</nuxt-link>
+        </li>
+        <li class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+          <nuxt-link to="/committees" style="color:#212121">Committees</nuxt-link>
         </li>
       </ul>
     </div>
