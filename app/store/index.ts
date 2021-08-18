@@ -35,8 +35,8 @@ interface Actions<S, R> extends ActionTree<S, R> {
 export const actions: Actions<State, State> = {
   async GET_POSTS_LIST({ commit }): Promise<void | Error> {
     // Use webpack to search the blog directory matching .json files
-    const context = await require.context('@/content/blog/', false, /\.json$/);
-    const posts = await getContent({ context, prefix: 'blog' });
+    const context = await require.context('@/content/staff/', false, /\.json$/);
+    const posts = await getContent({ context, prefix: 'staff' });
     commit('SET_POSTS', posts);
   },
 
