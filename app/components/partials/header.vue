@@ -1,36 +1,27 @@
 <template>
-  <header class="flex items-center" style="background:transparent;position:absolute;width:100%;padding:2em 0;">
-    <div class="x y z" style="max-width:9999px">
-      <div class="header__logo">
-        <nuxt-link to="/" style="color: #fff;font-weight:600;font-size:24px">
-          {{ logo }}
-        </nuxt-link>
-      </div>
-
-      <nav class="nav ml-auto">
-        <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0">
-        
-          <li class="block font-medium px-4 py-1 md:p-2 lg:px-4">
-            <nuxt-link to="/" style="color:#212121">Home</nuxt-link>
-          </li>
-          <li
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..."></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li 
             v-for="(page, index) in pages"
             :key="index"
-            class="block font-medium px-4 py-1 md:p-2 lg:px-4"
-          >
-            <nuxt-link :to="`/${page.slug}`" style="color:#212121">{{ page.title }}</nuxt-link>
-          </li>
-          <li class="block font-medium px-4 py-1 md:p-2 lg:px-4">
-            <nuxt-link to="/staff" style="color:#212121">Staff</nuxt-link>
-          </li>
-          <li class="block font-medium px-4 py-1 md:p-2 lg:px-4">
-            <nuxt-link to="/committees" style="color:#212121">Committees</nuxt-link>
-          </li>
+            class="block font-medium px-4 py-1 md:p-2 lg:px-4" class="nav-item">
+            <nuxt-link :to="`/${page.slug}`" style="color:#212121">{{ page.title }}</nuxt-link></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         
-        </ul>
-      </nav>
-    </div>
-  </header>
 </template>
 
 <script lang="ts">
