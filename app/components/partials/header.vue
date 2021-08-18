@@ -15,11 +15,7 @@
             v-for="(page, index) in pages"
             :key="index"
             class="nav-item block font-medium px-4 py-1 md:p-2 lg:px-4" class="nav-item">
-            <nuxt-link :to="`/${page.slug}`" class="nav-link" style="color:#212121">{{ page.title }}</nuxt-link></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <nuxt-link :to="`/${page.slug}`" class="nav-link">{{ page.title }}</nuxt-link></li>
                     </ul>
                 </div>
             </div>
