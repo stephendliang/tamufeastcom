@@ -17,7 +17,7 @@ import { MetaInfo } from 'vue-meta';
 @Component({
   head(): MetaInfo {
     return {
-      title: this.post.title,
+      title: this.post.name,
       meta: [
         {
           hid: 'description',
