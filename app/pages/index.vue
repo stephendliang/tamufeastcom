@@ -1,5 +1,5 @@
 <template>
-  <section class="home">
+  <div class="home">
     <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-center bg-fit" style="padding:220px 0" v-bind:style="{ backgroundImage: 'url(' + header + ')' }">
       <div class="x">
         <div class="">
@@ -49,7 +49,7 @@
       </div>
     </div>
     
-  </section>
+  </div>
 </template>
 
 <script lang="ts">
