@@ -58,6 +58,7 @@ const Pagination = () => import('@/components/commons/pagination.vue');
     const { perPage }: { perPage: number } = store.state;
     const range = page * perPage;
     const posts = store.state.posts
+    console.log(posts)
     return {
       currentPage: page,
       totalPages: Math.ceil(store.state.posts.length / perPage),
