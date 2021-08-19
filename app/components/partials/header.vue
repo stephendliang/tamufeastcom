@@ -1,10 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="x y">
-<!--                <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..."></a>-->
-                        <nuxt-link to="/"  class="navbar-brand" style="color: #fff;font-weight:600;font-size:24px">
-          {{ logo }}
-          </nuxt-link>
+    <div class="x y">
+      <nuxt-link to="/"  class="navbar-brand" style="color: #fff;font-weight:600;font-size:24px;font-family:'Garamond', 'Georgia', 'Times New Roman', serif">
+        {{ logo }}
+      </nuxt-link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
