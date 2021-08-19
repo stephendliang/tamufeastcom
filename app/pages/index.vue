@@ -8,26 +8,13 @@
         </div>
       </div>
     </div>
-    
-    
     <div style="padding-top:54px">
       <div class="x">
         <div class="flex flex-col w-full lg:items-start overflow-y-hidden">
-          <div v-html="$md.render(welcomeText)" class="home__welcome markdown tc mx-auto" style="text-align:center !important;max-width:900px"/>
+          <div v-html="$md.render(welcomeText)" class="home__welcome markdown fancy-p tc mx-auto" style="text-align:center !important;max-width:900px;"/>
         </div>
       </div>
     </div>
-    
-
-
-
-
-
-
-
-
-
-
     <div class="bg- pdst pt128 pb96 " style="padding: 120px 0 80px">
       <div class="x c y z">
         <div style="max-width: 567px">
@@ -110,3 +97,6 @@ export default class Home extends Vue {
   }
 }
 </script>
+
+<style>
+.fancy-p p {font-family: 'Georgia'; font-size: 21px}</style>
