@@ -13,15 +13,12 @@
           <div class="post">
             <div>
               <div class="p-6 bg-white">
-
                 <p class="text-base font-light">
                   {{ post.name }}
                 </p>
                 <p class="text-base font-light">
                   {{ post.content }}
                 </p>
-
-                <h6 class="text-blue-600 mt-4 font-medium">Read more</h6>
               </div>
             </div>
           </div>
