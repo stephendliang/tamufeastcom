@@ -1,26 +1,28 @@
 <template>
   <section class="blog">
-    <div class="py-8 md:py-16 text-center">
-      <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">Staff members</h1>
-      <h2 class="text-base md:text-lg lg:text-xl xl:text-2xl">
-      Here's who we work with.
-      </h2>
-    </div>
+    <div class="x">
+      <div class="py-8 md:py-16 text-center">
+        <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">Staff members</h1>
+        <h2 class="text-base md:text-lg lg:text-xl xl:text-2xl">
+        Here's who we work with.
+        </h2>
+      </div>
 
-    <div class="flex flex-wrap md:-mx-4 pb-20">
-      <div v-for="(post, index) in posts" :key="index" class="w-full md:w-1/2 my-4 md:px-4">
-        <div class="post">
-          <div>
-            <div class="p-6 bg-white">
+      <div class="flex flex-wrap md:-mx-4 pb-20">
+        <div v-for="(post, index) in posts" :key="index" class="w-full md:w-1/2 my-4 md:px-4">
+          <div class="post">
+            <div>
+              <div class="p-6 bg-white">
 
-              <p class="text-base font-light">
-                {{ post.name }}
-              </p>
-              <p class="text-base font-light">
-                {{ post.content }}
-              </p>
+                <p class="text-base font-light">
+                  {{ post.name }}
+                </p>
+                <p class="text-base font-light">
+                  {{ post.content }}
+                </p>
 
-              <h6 class="text-blue-600 mt-4 font-medium">Read more</h6>
+                <h6 class="text-blue-600 mt-4 font-medium">Read more</h6>
+              </div>
             </div>
           </div>
         </div>
