@@ -49,13 +49,21 @@ const Pagination = () => import('@/components/commons/pagination.vue');
       ],
     };
   },
-})
-export default class BlogIndex extends Vue {
+})export default class BlogIndex extends Vue {
   currentPage!: number;
   totalPages!: number;
-  posts: Post[] = store.state.posts.filter;
-  mounted () {
-  console.log(store.state.posts.filter)}
+  posts: Post[] = [];
+  async asyncData({ params, store }) {
+    const page: number = params.page ? parseInt(params.page, 10) : 1;
+    const { perPage }: { perPage: number } = store.state;
+    const range = page * perPage;
+    const posts = store.state.posts
+    return {
+      currentPage: page,
+      totalPages: Math.ceil(store.state.posts.length / perPage),
+      posts: posts || [],
+    };
+  }
 }
 </script>
 
