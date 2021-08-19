@@ -12,7 +12,7 @@
                 
       
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-        <li class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+        <li class="nav-item block font-medium px-4 py-1 md:p-2 lg:px-4">
           <nuxt-link to="/">Home</nuxt-link>
         </li>
                         <li 
@@ -20,10 +20,10 @@
             :key="index"
             class="nav-item block font-medium px-4 py-1 md:p-2 lg:px-4" class="nav-item">
             <nuxt-link :to="`/${page.slug}`" class="nav-link">{{ page.title }}</nuxt-link></li>
-        <li class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+        <li class="nav-item block font-medium px-4 py-1 md:p-2 lg:px-4">
           <nuxt-link to="/staff" >Staff</nuxt-link>
         </li>
-        <li class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+        <li class="nav-item block font-medium px-4 py-1 md:p-2 lg:px-4">
           <nuxt-link to="/committees" >Committees</nuxt-link>
         </li>
                     </ul>
