@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="x y">
+    <div class="x y" style="max-width:1200px">
       <nuxt-link to="/"  class="navbar-brand" style="color: #fff;font-weight:600;font-size:24px;font-family:'Garamond', 'Georgia', 'Times New Roman', serif">
         {{ logo }}
       </nuxt-link>
@@ -18,7 +18,7 @@
                         <li 
             v-for="(page, index) in pages"
             :key="index"
-            class="nav-item block font-medium px-4 py-1 md:p-2 lg:px-4" class="nav-item">
+            class="nav-item block font-medium px-4 py-1 md:p-2 lg:px-4">
             <nuxt-link :to="`/${page.slug}`" class="nav-link">{{ page.title }}</nuxt-link></li>
         <li class="nav-item block font-medium px-4 py-1 md:p-2 lg:px-4">
           <nuxt-link to="/staff" class="nav-link" >Staff</nuxt-link>
