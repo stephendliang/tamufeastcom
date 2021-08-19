@@ -4,9 +4,6 @@
       <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">
         {{ post.name }}
       </h1>
-      <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">
-        {{ post.content }}
-      </h1>
     </div>
 
     <div v-html="$md.render(post.content)" class="post__content markdown pt-4 md:pt-6 md:pb-24" />
