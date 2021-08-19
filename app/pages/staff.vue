@@ -13,10 +13,10 @@
     <section class="blog">
       <div class="x">
         <div class="flex flex-wrap md:-mx-4 pb-20">
-          <div v-for="(post, index) in posts" :key="index" class="w-full">
+          <div v-for="post in posts" :key="index" class="w-full">
             <div class="post">
-              <h3 class="text-base font-light">{{ post.title }}</h3>
-              <p class="text-base font-light">{{ post.content }}</p>
+              <div v-html="$md.render(post.content)" class="post__content markdown pt-4 md:pt-6 md:pb-24" />
+              </div>
             </div>
           </div>
         </div>
