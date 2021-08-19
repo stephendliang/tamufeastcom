@@ -15,7 +15,7 @@
                   <nuxt-link :to="`/${page.slug}`"
           v-for="(page, index) in pages"
           :key="index"
-          class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</nuxt-link>
+          class="link-dark text-decoration-none me-3" href="#!"{{ post.title }}</nuxt-link>
                   <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
               </div>
           </div>
