@@ -11,16 +11,8 @@
       <div class="flex flex-wrap md:-mx-4 pb-20">
         <div v-for="(post, index) in posts" :key="index" class="w-full md:w-1/2 my-4 md:px-4">
           <div class="post">
-            <div>
-              <div class="p-6 bg-white">
-                <p class="text-base font-light">
-                  {{ post.name }}
-                </p>
-                <p class="text-base font-light">
-                  {{ post.content }}
-                </p>
-              </div>
-            </div>
+            <h3 class="text-base font-light">{{ post.name }}</h3>
+            <p class="text-base font-light">{{ post.content }}</p>
           </div>
         </div>
       </div>
