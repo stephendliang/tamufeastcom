@@ -2,7 +2,10 @@
   <article class="post" :class="post.slug">
     <div class="py-8 md:py-16 text-center mx-auto">
       <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">
-        {{ post.title }}
+        {{ post.name }}
+      </h1>
+      <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">
+        {{ post.content }}
       </h1>
     </div>
 
