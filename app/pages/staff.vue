@@ -14,13 +14,16 @@
             <img
               :alt="post.title"
               class="w-full"
-              :src="post.featuredImage || 'https://source.unsplash.com/random/640x340'"
+              :src="post.profile || 'https://source.unsplash.com/random/640x340'"
             />
             <div class="p-6 bg-white">
               <h2 class="text-2xl mb-2">{{ post.title }}</h2>
 
               <p class="text-base font-light">
-                {{ post.excerpt }}
+                {{ post.name }}
+              </p>
+              <p class="text-base font-light">
+                {{ post.content }}
               </p>
 
               <h6 class="text-blue-600 mt-4 font-medium">Read more</h6>
