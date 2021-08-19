@@ -1,23 +1,28 @@
 <template>
-  <section class="blog">
-    <div class="x">
-      <div class="py-8 md:py-16 text-center">
-        <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">Staff members</h1>
-        <h2 class="text-base md:text-lg lg:text-xl xl:text-2xl">
-        Here's who we work with.
-        </h2>
+  <div>
+    <section class="blog">
+      <div class="x">
+        <div class="py-8 md:py-16 text-center">
+          <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">Staff members</h1>
+          <h2 class="text-base md:text-lg lg:text-xl xl:text-2xl">
+          Here's who we work with.
+          </h2>
+        </div>
       </div>
-
-      <div class="flex flex-wrap md:-mx-4 pb-20">
-        <div v-for="(post, index) in posts" :key="index" class="w-full">
-          <div class="post">
-            <h3 class="text-base font-light">{{ post.title }}</h3>
-            <p class="text-base font-light">{{ post.content }}</p>
+    </section>
+    <section class="blog">
+      <div class="x">
+        <div class="flex flex-wrap md:-mx-4 pb-20">
+          <div v-for="(post, index) in posts" :key="index" class="w-full">
+            <div class="post">
+              <h3 class="text-base font-light">{{ post.title }}</h3>
+              <p class="text-base font-light">{{ post.content }}</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script lang="ts">
