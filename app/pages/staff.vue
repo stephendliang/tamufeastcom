@@ -26,7 +26,6 @@
         </div>
       </div>
     </div>
-    <Pagination v-if="totalPages > 1" :current-page="currentPage" :total-pages="totalPages" />
   </section>
 </template>
 
@@ -54,21 +53,7 @@ const Pagination = () => import('@/components/commons/pagination.vue');
 export default class BlogIndex extends Vue {
   currentPage!: number;
   totalPages!: number;
-  posts: Post[] = [];
-  async asyncData({ params, store }) {
-    const page: number = params.page ? parseInt(params.page, 10) : 1;
-    const { perPage }: { perPage: number } = store.state;
-    const range = page * perPage;
-    const posts = store.state.posts.filter((post, index) => {
-      const indexPage = index + 1;
-      return range - perPage < indexPage && indexPage <= range;
-    });
-    return {
-      currentPage: page,
-      totalPages: Math.ceil(store.state.posts.length / perPage),
-      posts: posts || [],
-    };
-  }
+  posts: Post[] = store.state.posts.filter;
 }
 </script>
 
