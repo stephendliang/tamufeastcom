@@ -54,6 +54,8 @@ export default class BlogIndex extends Vue {
   currentPage!: number;
   totalPages!: number;
   posts: Post[] = store.state.posts.filter;
+  mounted () {
+  console.log(store.state.posts.filter)}
 }
 </script>
 
