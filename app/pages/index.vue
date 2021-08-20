@@ -17,7 +17,7 @@
     </div>
     <div class="bg- pdst pt128 pb96 " style="padding: 60px 0 60px">
       <div class="x flex-md-row d-md-flex z" style="max-width: 1200px">
-        <div style="max-width: 400px">
+        <div style="max-width: 520px">
           <h3 class="mt0 w6">Ready to get started?</h3>
           <p class="mt1 cl-swap w4">We're currently not done setting up the backend currently, but you can sign up to receive updates when it's done.</p>
         </div>
