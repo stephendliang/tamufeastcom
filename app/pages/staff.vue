@@ -28,11 +28,7 @@
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
 import { MetaInfo } from 'vue-meta';
-const Pagination = () => import('@/components/commons/pagination.vue');
 @Component({
-  components: {
-    Pagination,
-  },
   head(): MetaInfo {
     return {
       title: 'Staff',
@@ -46,18 +42,11 @@ const Pagination = () => import('@/components/commons/pagination.vue');
     };
   },
 })export default class BlogIndex extends Vue {
-  currentPage!: number;
-  totalPages!: number;
   posts: Post[] = [];
   async asyncData({ params, store }) {
-    const page: number = params.page ? parseInt(params.page, 10) : 1;
-    const { perPage }: { perPage: number } = store.state;
-    const range = page * perPage;
     const posts = store.state.posts
     console.log(posts)
     return {
-      currentPage: page,
-      totalPages: Math.ceil(store.state.posts.length / perPage),
       posts: posts || [],
     };
   }
