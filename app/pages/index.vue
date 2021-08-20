@@ -22,7 +22,7 @@
           <p class="mt1 cl-swap w4">We're currently not done setting up the backend currently, but you can sign up to receive updates when it's done.</p>
         </div>
         <ul class="L y pl mt25">
-          <li class="pb-20 pr-md-20">
+          <li class="mr-md-4">
             <a class="btn btn-primary" href="/signup.html">
               <span class="">Sign up</span>
             </a>
