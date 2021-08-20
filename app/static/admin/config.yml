@@ -84,24 +84,3 @@ collections:
         summary: '{{fields.image}}'
         field: {label: Image, name: image, widget: image}
   
-  - name: 'staffmember'
-    label: 'Staff Members'
-    folder: 'app/content/staff'
-    create: true
-    slug: '{{fields.name}}'
-    format: 'json'
-    fields:
-      - { label: Name, name: name, widget: string }
-      - { label: Content, name: content, widget: markdown }
-      - { label: 'Profile', name: profile, widget: image, required: false }
-  
-  - name: 'committees'
-    label: 'Committees'
-    folder: 'app/content/committees'
-    create: true
-    slug: '{{fields.name}}'
-    format: 'json'
-    fields:
-      - { label: Name, name: name, widget: string }
-      - { label: Content, name: content, widget: markdown }
-      - { label: 'Profile', name: profile, widget: image, required: false }
