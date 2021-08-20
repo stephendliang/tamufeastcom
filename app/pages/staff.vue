@@ -13,7 +13,7 @@
     <section class="blog">
       <div class="x">
         <div class="flex flex-wrap md:-mx-4 pb-20">
-          <div v-for="post in posts" :key="index" class="w-full">
+          <div v-for="post in posts" :key="post.content" class="w-full">
             <div class="post">
               <div v-html="$md.render(post.content)" class="post__content markdown pt-4 md:pt-6 md:pb-24" />
               </div>
