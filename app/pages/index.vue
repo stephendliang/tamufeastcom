@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    <div class="bg- pdst pt128 pb96 " style="padding: 120px 0 80px">
+    <div class="bg- pdst pt128 pb96 " style="padding: 60px 0 60px">
       <div class="x flex-lg-row d-lg-flex z">
         <div style="max-width: 567px">
           <h3 class="mt0 w6">Ready to get started?</h3>
@@ -23,12 +23,12 @@
         </div>
         <ul class="L flex-lg-row d-lg-flex pl mt25">
           <li class="mr-md-4">
-            <a class="btn btn-primary" href="/signup.html">
+            <a class="btn btn-primary" href="/signup.html" style="width:100%">
               <span class="">Sign up</span>
             </a>
           </li>
           <li class="">
-            <a class="btn btn-light" href="/faq.html">
+            <a class="btn btn-light" href="/faq.html" style="width:100%">
               <span class="">View FAQ</span>
             </a>
           </li>
