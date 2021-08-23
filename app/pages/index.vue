@@ -9,7 +9,7 @@
       </div>
     </div>
     <div style="padding-top:124px;padding-bottom:100px">
-      <div class="x">
+      <div class="x" style="max-width: 1200px">
         <div class="flex flex-col w-full lg:items-start overflow-y-hidden">
           <div v-html="$md.render(welcomeText)" class="home__welcome markdown fancy-p tc mx-auto" style="text-align:center !important;max-width:900px;"/>
         </div>
