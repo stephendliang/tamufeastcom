@@ -18,7 +18,7 @@
                 </a>
               </div>
               
-        <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+        <ul class=" py-4 py-lg-0 y">
           <li class="nav-item block font-medium py-1 md:py-2">
             <nuxt-link to="/" class="nav-link">Home</nuxt-link>
           </li>
