@@ -18,11 +18,7 @@
               :src="post.featuredImage || 'https://source.unsplash.com/random/640x340'"
             />
             <div class="p-6 bg-white">
-              <h2 class="text-2xl mb-2">{{ post.title }}</h2>
-
-              <p class="text-base font-light">
-                {{ post.excerpt }}
-              </p>
+              <h2 class="text-2xl mb-2 cl-black">{{ post.title }}</h2>
             </div>
           </nuxt-link>
         </div>
