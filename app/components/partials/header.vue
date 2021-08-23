@@ -13,7 +13,7 @@
             <nuxt-link to="/" class="nav-link">Home</nuxt-link>
           </li>
           <li class="nav-item block font-medium py-1 md:py-2">
-            <nuxt-link to="/blog" class="nav-link">Home</nuxt-link>
+            <nuxt-link to="/blog" class="nav-link">Events</nuxt-link>
           </li>
           <li 
               v-for="(page, index) in pages"
