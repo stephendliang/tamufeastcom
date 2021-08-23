@@ -7,7 +7,7 @@
       <nuxt-link to="/"  class="navbar-brand" style="color: #fff;font-weight:600;font-size:24px;font-family:'Garamond', 'Georgia', 'Times New Roman', serif">
         {{ logo }}
       </nuxt-link>
-      <div class="collapse navbar-collapse mla" id="navbarResponsive">
+      <div>
       
               <div class="col-lg-4 my-3 my-lg-0">
                 <a class="btn btn-social mx-2" href="https://twitter.com/tamufeast">
