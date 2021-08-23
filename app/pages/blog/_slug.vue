@@ -45,7 +45,7 @@ export default class BlogPost extends Vue {
     }
 
     try {
-      const post = require(`@/content/staff/${params.slug}.json`);
+      const post = require(`@/content/blog/${params.slug}.json`);
 
       return {
         post,
