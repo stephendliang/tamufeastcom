@@ -2,15 +2,14 @@
   <section class="blog">
   <div class="x">
     <div class="py-8 md:py-16 text-center">
-      <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">Events</h1>
+      <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-6xl">Events</h1>
       <h2 class="text-base md:text-lg lg:text-xl xl:text-2xl">
         See how we have fun
       </h2>
     </div>
-
     <div class="flex flex-wrap md:-mx-4 pb-20">
       <div v-for="(post, index) in posts" :key="index" class="w-full md:w-1/2 my-4 md:px-4">
-        <div class="post">
+        <div class="post" style="box-shadow: none !important">
           <nuxt-link :to="`/blog/${post.slug}`">
             <img
               :alt="post.title"
