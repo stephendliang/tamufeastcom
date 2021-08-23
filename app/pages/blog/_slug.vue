@@ -4,7 +4,7 @@
 
       <div class="py-8 md:py-16 text-center mx-auto">
         <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">
-          {{ post.name }}
+          {{ post.title }}
         </h1>
       </div>
 
