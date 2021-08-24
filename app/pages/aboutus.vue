@@ -15,26 +15,6 @@
         </div>
       </div>
     </div>
-    <div class="bg- pdst pt128 pb96 " style="padding: 60px 0 60px">
-      <div class="x flex-md-row d-md-flex z" style="max-width: 1200px">
-        <div style="max-width: 520px">
-          <h3 class="mt0 w6">Ready to get started?</h3>
-          <p class="mt1 cl-swap w4">We're currently not done setting up the backend currently, but you can sign up to receive updates when it's done.</p>
-        </div>
-        <ul class="L flex-md-row d-md-flex pl mt25">
-          <li class="mr-md-4 mb-md-0 mb-4">
-            <a class="btn btn-primary" href="/signup.html" style="width:100%">
-              <span class="">Sign up</span>
-            </a>
-          </li>
-          <li class="">
-            <a class="btn btn-light" href="/faq.html" style="width:100%">
-              <span class="">View FAQ</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
   </div>
 </template>
 
