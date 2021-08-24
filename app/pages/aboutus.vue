@@ -11,7 +11,7 @@
     <div style="padding-top:124px;padding-bottom:100px">
       <div class="x" style="max-width: 1200px">
         <div class="flex flex-col w-full lg:items-start overflow-y-hidden">
-          <div v-html="$md.render(welcomeText)" class="home__welcome markdown fancy-p tc mx-auto" style="text-align:center !important;max-width:900px;"/>
+          <div v-html="$md.render(desc)" class="home__welcome markdown fancy-p tc mx-auto" style="text-align:center !important;max-width:900px;"/>
         </div>
       </div>
     </div>
@@ -31,7 +31,7 @@ import manifest from '@/content/settings/manifest.json';
 export default class Home extends Vue {
   subtagText = settings.subtagText;
   taglineText = settings.taglineText;
-  welcomeText = settings.welcomeText;
+  desc = manifest.description;
   header = settings.header;
   get posts(): Post[] {
     return this.$store.state.posts;
