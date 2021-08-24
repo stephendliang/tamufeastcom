@@ -41,6 +41,7 @@
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
 import settings from '@/content/settings/general.json';
+import manifest from '@/content/settings/manifest.json';
 @Component({
   // Called to know which transition to apply
   transition() {
