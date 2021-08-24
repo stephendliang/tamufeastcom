@@ -42,7 +42,7 @@ collections:
           - { label: 'Theme color', name: themeColor, widget: string }
           - { label: 'Background color', name: backgroundColor, widget: string }
           - { label: Lang, name: lang, widget: string, default: en }
-          - { label: "Event 1", name: "author", widget: "relation", collection: "blog", search_fields: ['title'], value_field: "{{title}}", display_fields: ['title'] }
+          - { label: "Event 1", name: ev1, widget: "relation", collection: "blog", search_fields: ['title'], value_field: "{{title}}", display_fields: ['title'] }
 
   - name: 'pages'
     label: 'Pages'
