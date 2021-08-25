@@ -4,11 +4,11 @@
       <nuxt-link to="/"  class="navbar-brand" style="color: #fff;font-weight:600;font-size:24px;font-family:'Garamond', 'Georgia', 'Times New Roman', serif">
         {{ logo }}
       </nuxt-link>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" @click="show=!show" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
       </button>
       <div class="collapse navbar-collapse mla" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+        <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0" >
           <li class="nav-item block font-medium py-1 md:py-2">
             <nuxt-link to="/" class="nav-link">Home</nuxt-link>
           </li>
@@ -48,4 +48,10 @@ export default class Header extends Vue {
     }
   }
 }
+
+
+@media (max-width: 767.98px) {
+.shownav{display:block !important}
+}
+
 </style>
