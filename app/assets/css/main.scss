@@ -12185,5 +12185,5 @@ button {
 
 
 @media (max-width: 767.98px) {
-  .bio{>*{width:100%}}
+  .bio{flex-direction:column;>*{width:100%}}
 }
