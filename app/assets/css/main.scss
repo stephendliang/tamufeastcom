@@ -12182,3 +12182,8 @@ button {
   >*{width:calc(50%-20px)}
   .paragr {display: block}
 }
+
+
+@media (max-width: 767.98px) {
+  .bio{>*{width:100%}}
+}
