@@ -3,7 +3,7 @@
     <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-center bg-fit" style="padding:220px 0" v-bind:style="{ backgroundImage: 'url(' + header + ')' }">
       <div class="x">
         <div class="">
-          <h2 class="v" style="color:#fff;font-size:45px;font-weight:600;text-align:center;text-transform:uppercase">{{ taglineText }} </h2>
+          <h2 class="v" style="color:#fff;font-size:45px;font-weight:600;text-align:center;text-transform:uppercase;letter-spacing:0.5px;line-height:1.618;font-family:'Georgia'">{{ taglineText }} </h2>
           <em class="v" style="color:#fff;font-size:19px;font-weight:500;text-align:center;text-transform:uppercase">{{ subtagText }} </em>
         </div>
       </div>
