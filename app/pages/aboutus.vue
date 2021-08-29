@@ -12,6 +12,34 @@
         <div class="flex flex-col w-full lg:items-start overflow-y-hidden">
           <div v-html="$md.render(desc)" class="home__welcome markdown fancy-p tc mx-auto" style="text-align:center !important;max-width:900px;"/>
         </div>
+        <div>
+          <div class="post" style="box-shadow: none !important;">
+            <a href="/blog/cat" class="">
+              <img alt="cat" src="/images/uploads/81464027_471079400471586_3271125514441457664_n.jpg" class="w-full">
+              <div class="p-6 bg-white">
+                <h2 class="text-2xl mb-2 cl-black">cat</h2>
+              </div>
+            </a>
+            <a href="/blog/cat" class="">
+              <img alt="cat" src="/images/uploads/81464027_471079400471586_3271125514441457664_n.jpg" class="w-full">
+              <div class="p-6 bg-white">
+                <h2 class="text-2xl mb-2 cl-black">cat</h2>
+              </div>
+            </a>
+            <a href="/blog/cat" class="">
+              <img alt="cat" src="/images/uploads/81464027_471079400471586_3271125514441457664_n.jpg" class="w-full">
+              <div class="p-6 bg-white">
+                <h2 class="text-2xl mb-2 cl-black">cat</h2>
+              </div>
+            </a>
+            <a href="/blog/cat" class="">
+              <img alt="cat" src="/images/uploads/81464027_471079400471586_3271125514441457664_n.jpg" class="w-full">
+              <div class="p-6 bg-white">
+                <h2 class="text-2xl mb-2 cl-black">cat</h2>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
