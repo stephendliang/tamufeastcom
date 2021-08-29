@@ -20,6 +20,9 @@
               :key="index"
               class="nav-item block font-medium py-1 md:py-2">
               <nuxt-link :to="`/${page.slug}`" class="nav-link">{{ page.title }}</nuxt-link></li>
+          <li class="nav-item block font-medium py-1 md:py-2">
+            <nuxt-link to="/aboutus" class="nav-link">About Us</nuxt-link>
+          </li>
         </ul>
       </div>
     </div>
