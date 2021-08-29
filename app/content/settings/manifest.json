@@ -1,9 +1,12 @@
 {
-  "name": "Bluise",
+  "ev1": "cat",
+  "ev2": "Meditation pop-up forage",
+  "ev3": "La croix",
+  "ev4": "test1",
   "shortName": "Bluise",
-  "description": "We do X, Y, Z",
-  "themeColor": "#0b3765",
-  "backgroundColor": "#ffffff",
+  "name": "Bluise",
   "lang": "en",
-  "ev1": "Meditation pop-up forage"
+  "backgroundColor": "#ffffff",
+  "themeColor": "#0b3765",
+  "description": "“Our mission is to develop freshmen into leaders who exemplify the Aggie Spirit and preserve the fundamental traditions and values of Texas A&M University through selfless service, community outreach, and University engagement. We envision a campus where all Aggies demonstrate the uncommon ability to inspire and lead the Aggie family to exceptional achievement.”"
 }
